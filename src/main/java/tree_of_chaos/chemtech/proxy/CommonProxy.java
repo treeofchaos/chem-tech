@@ -9,7 +9,8 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import tree_of_chaos.chemtech.blocks.Chalcopyrite;
-import tree_of_chaos.chemtech.blocks.ModBlocks;
+import tree_of_chaos.chemtech.blocks.Cassiterite;
+import tree_of_chaos.chemtech.ModBlocks;
 
 @Mod.EventBusSubscriber
 public class CommonProxy 
@@ -30,11 +31,13 @@ public class CommonProxy
     public static void registerBlocks(RegistryEvent.Register<Block> event) 
     {
     	event.getRegistry().register(new Chalcopyrite());
+        event.getRegistry().register(new Cassiterite());
     }
 
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) 
     {
     	event.getRegistry().register(new ItemBlock(ModBlocks.chalcopyrite).setRegistryName(ModBlocks.chalcopyrite.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(ModBlocks.cassiterite).setRegistryName(ModBlocks.cassiterite.getRegistryName()));
     }
 }

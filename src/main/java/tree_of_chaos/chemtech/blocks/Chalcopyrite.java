@@ -21,10 +21,10 @@ public class Chalcopyrite extends Block
 		setHarvestLevel("pickaxe", 2);
 		setCreativeTab(ChemTech.chemtechtab);
 	}
-	
-    @SideOnly(Side.CLIENT)
-    public void initModel() 
-    {
-        ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(this), 0, new ModelResourceLocation(getRegistryName(), "inventory"));
-    }
+
+	@SideOnly(Side.CLIENT)
+	public void initModel()
+	{
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(this), 0, new ModelResourceLocation(getRegistryName(), "inventory"));
+	}
 }
