@@ -28,10 +28,11 @@ public class ModBlocks
     @SideOnly(Side.CLIENT)
     public static void initModels()
     {
-        /*
-        Chalcopyrite.initModel();
-        Cassiterite.initModel();
-        Uraninite.initModel();
-        */
+        chalcopyrite.initModel();
+        cassiterite.initModel();
+        uraninite.initModel();
+        galena.initModel();
+        wolframite.initModel();
+        garnierite.initModel();
     }
 }

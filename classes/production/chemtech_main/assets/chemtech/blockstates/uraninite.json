@@ -1,7 +1,7 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "model": "chemtech:garnierite"
+    "model": "chemtech:uraninite"
   },
   "variants": {
     "normal": [{}],

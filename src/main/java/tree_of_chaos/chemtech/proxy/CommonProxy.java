@@ -8,7 +8,6 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import tree_of_chaos.chemtech.Uraninite;
 import tree_of_chaos.chemtech.blocks.*;
 import tree_of_chaos.chemtech.ModBlocks;
 
@@ -45,7 +44,7 @@ public class CommonProxy
         event.getRegistry().register(new ItemBlock(ModBlocks.cassiterite).setRegistryName(ModBlocks.cassiterite.getRegistryName()));
         event.getRegistry().register(new ItemBlock(ModBlocks.uraninite).setRegistryName(ModBlocks.uraninite.getRegistryName()));
         event.getRegistry().register(new ItemBlock(ModBlocks.galena).setRegistryName(ModBlocks.galena.getRegistryName()));
-        event.getRegistry().register(new ItemBlock(ModBlocks.galena).setRegistryName(ModBlocks.galena.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(ModBlocks.wolframite).setRegistryName(ModBlocks.galena.getRegistryName()));
         event.getRegistry().register(new ItemBlock(ModBlocks.garnierite).setRegistryName(ModBlocks.garnierite.getRegistryName()));
     }
 }

@@ -1,5 +1,5 @@
-package tree_of_chaos.chemtech;
-
+package tree_of_chaos.chemtech.blocks;
+import tree_of_chaos.chemtech.ChemTech;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
