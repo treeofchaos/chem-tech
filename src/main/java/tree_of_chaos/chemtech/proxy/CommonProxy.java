@@ -44,7 +44,7 @@ public class CommonProxy
         event.getRegistry().register(new ItemBlock(ModBlocks.cassiterite).setRegistryName(ModBlocks.cassiterite.getRegistryName()));
         event.getRegistry().register(new ItemBlock(ModBlocks.uraninite).setRegistryName(ModBlocks.uraninite.getRegistryName()));
         event.getRegistry().register(new ItemBlock(ModBlocks.galena).setRegistryName(ModBlocks.galena.getRegistryName()));
-        event.getRegistry().register(new ItemBlock(ModBlocks.wolframite).setRegistryName(ModBlocks.galena.getRegistryName()));
+        event.getRegistry().register(new ItemBlock(ModBlocks.wolframite).setRegistryName(ModBlocks.wolframite.getRegistryName()));
         event.getRegistry().register(new ItemBlock(ModBlocks.garnierite).setRegistryName(ModBlocks.garnierite.getRegistryName()));
     }
 }
