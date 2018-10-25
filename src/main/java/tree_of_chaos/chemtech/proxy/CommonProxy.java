@@ -8,14 +8,17 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 import tree_of_chaos.chemtech.blocks.*;
 import tree_of_chaos.chemtech.ModBlocks;
+import tree_of_chaos.chemtech.world.ChemTechOreGen;
 
 @Mod.EventBusSubscriber
 public class CommonProxy 
 {
     public void preInit(FMLPreInitializationEvent e) 
     {
+        GameRegistry.registerWorldGenerator(new ChemTechOreGen(), 3);
     }
 
     public void init(FMLInitializationEvent e)
